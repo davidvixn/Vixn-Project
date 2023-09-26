@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    
+}
+.header{
+    background-color: blue; 
+    display: flex;
+    z-index: 1px;
+    width: 100%;
+    position: fixed;
+    height: 100px;
+   
+}
+.logo{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.head{
+    margin-left: 100px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.head ul li{
+    padding-right: 90px;
+    padding-bottom: 50px;
+    list-style: none;
+    text-decoration: transparent;
+}
+.head ul li:hover{
+   text-decoration: underline;
+}
+.wazo{
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+.b{
+    margin-right: 40px;
+    padding-top: 10px;
+}
+.b1{
+    padding: 10px 30px 10px 30px;
+    margin-right: 20px; 
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+.b1:hover{
+    background-color: grey;
+    color: white;
+}
+.vixn{
+    display: flex;
+    background-color: cornsilk;
+}
+.image{
+    width: 90%;
+    height: 700px;
+    padding-top: 60px;
+}
+.raves{
+    padding-left: 50px;
+    padding-top: 60px;
+    font-size: 30px;
+}
+.divine{
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.beamer{
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.la{
+    display: flex;
+}
+.da{
+    height: 100px;
+    width: 20%;
+    padding-left: 50px;
+    padding-top: 200px;
+    border-radius: 50px;
+}
+.files{
+    margin-top: -10px;
+}
+.width{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    font-size: 20px;
+}
+.wow{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 200px;
+}
+.wo{
+    text-align: center;
+}
+.con{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(128, 128, 128, 0.9)), url('/image/rema-soundgasm-grungecake-thumbnail.gif');
+    background-size: 100%;
+    height: 800px;
+}
+.all{
+    display: flex;
+}
+.songs{
+    height: 10px;
+    width: 10%;
+}
+.so{
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+.trap{
+    padding-bottom: 81px;
+    padding-left: 40px;
+    color: white;
+}
+@media (max-width:500px){
+    .header{
+        display: none;
+    }
+    .image{
+        display: none;
+    }
+}
